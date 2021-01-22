@@ -4,3 +4,4 @@ Maze generator and solver visualization written on Java using Swing and AWT fram
 * BFS and A* (Manhattan distance) pathfinding algorithms
 * Load maze/Save solved or generated maze
 * Change height/width/animation delay and density of sparse grid
+![Screenshot](view.png)
