@@ -179,6 +179,11 @@ public class Main extends JPanel implements ActionListener {
                         endCellCnt += cellGrid[i][j] == 'E' ? 1 : 0;
                     }
                 }
+                st = br.readLine();
+                if (st != null) {
+                    showMessageDialog(null, "Extra lines", "Error", ERROR_MESSAGE);
+                    return;
+                }
                 if (startCellCnt != 1 || endCellCnt != 1) {
                     showMessageDialog(null, "Must be only one Start end End cell", "Error", ERROR_MESSAGE);
                     return;
