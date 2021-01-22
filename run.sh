@@ -1,1 +1,1 @@
-java -classpath . main.Main
+java -classpath src main.Main
